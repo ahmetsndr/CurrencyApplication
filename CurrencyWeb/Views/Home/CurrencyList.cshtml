@@ -1,0 +1,117 @@
+﻿@model IEnumerable<CurrencyWeb.Models.CurrencyWebModel>
+
+@{
+    ViewBag.Title = "CurrencyList";
+}
+
+
+<link href="~/Content/DataTables/css/jquery.dataTables.min.css" rel="stylesheet" />
+@section Scripts{
+    @*<script src="//cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>*@
+    <script src="~/Scripts/DataTables/jquery.dataTables.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#myTable').DataTable();
+        });
+    </script>
+}
+<h4>Currency list</h4>
+
+<table id="myTable" class="display">
+    <thead>
+        <tr>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.CrossOrder)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Kod)
+                </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.CurrencyCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Unit)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.Isim)
+            </th>*@
+            <th>
+                    @Html.DisplayNameFor(model => model.CurrencyName)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ForexBuying)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ForexSelling)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BanknoteBuying)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BanknoteSelling)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.CrossRateUSD)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CrossRateOther)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th></th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.CrossOrder)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Kod)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.CurrencyCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Unit)
+                </td>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.Isim)
+                </td>*@
+                <td>
+                        @Html.DisplayFor(modelItem => item.CurrencyName)
+                    </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ForexBuying)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ForexSelling)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BanknoteBuying)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BanknoteSelling)
+                </td>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.CrossRateUSD)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CrossRateOther)
+                </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "CurrencyEdit", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,15 @@
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\bin\Debug\CurrencyService.exe.config
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\bin\Debug\CurrencyService.exe
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\bin\Debug\CurrencyService.pdb
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\bin\Debug\Currency.Data.dll
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\bin\Debug\EntityFramework.dll
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\bin\Debug\Currency.Data.pdb
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\bin\Debug\Currency.Data.dll.config
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\bin\Debug\EntityFramework.xml
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\obj\Debug\CurrencyService.csprojAssemblyReference.cache
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\obj\Debug\CurrencyService.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\obj\Debug\CurrencyService.csproj.CopyComplete
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\obj\Debug\CurrencyService.exe
+C:\Users\ahmet\source\repos\CurrencyApp\CurrencyService\obj\Debug\CurrencyService.pdb
